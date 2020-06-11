@@ -10,7 +10,12 @@ public class Main_test {
         //test_Topic_126();
         //test_topic_990();
         //System.out.println(new Interview_46().translateNum(12));
-        System.out.println(new Topic_9().isPalindrome(1221));
+        //System.out.println(new Topic_9().isPalindrome(1221));
+        int[] T= {73,74,75,71,69,72,76,73};
+        T = new Topic_739().dailyTemperatures(T);
+        for (int i = 0; i < T.length; i++) {
+            System.out.println(T[i]);
+        }
     }
 
     private static void test_topic_990() {
