@@ -11,6 +11,17 @@ public class Main_test {
         //test_topic_990();
         //System.out.println(new Interview_46().translateNum(12));
         //System.out.println(new Topic_9().isPalindrome(1221));
+        //test_topic_739();
+        test_topic_1300();
+    }
+
+    private static void test_topic_1300() {
+        int[] arr = {1547,83230,57084,93444,70879
+        };
+        System.out.println(new Topic_1300().findBestValue(arr,71237));
+    }
+
+    private static void test_topic_739() {
         int[] T= {73,74,75,71,69,72,76,73};
         T = new Topic_739().dailyTemperatures(T);
         for (int i = 0; i < T.length; i++) {
