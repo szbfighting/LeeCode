@@ -1,6 +1,7 @@
 package com.leecode.june_daily;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main_test {
@@ -12,7 +13,18 @@ public class Main_test {
         //System.out.println(new Interview_46().translateNum(12));
         //System.out.println(new Topic_9().isPalindrome(1221));
         //test_topic_739();
-        test_topic_1300();
+        //test_topic_1300();
+        TreeNode root = new TreeNode(1);
+        TreeNode left = new TreeNode(2);
+        TreeNode right = new TreeNode(3);
+        right.left = new TreeNode(4);
+        right.right = new TreeNode(5);
+        root.left = left;
+        root.right = right;
+        String s = new Topic_297().serialize(root);
+        System.out.println(s);
+        TreeNode node = new Topic_297().deserialize(s);
+        System.out.println(new Topic_297().serialize(node));
     }
 
     private static void test_topic_1300() {
