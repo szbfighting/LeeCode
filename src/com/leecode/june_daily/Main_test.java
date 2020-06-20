@@ -3,6 +3,7 @@ package com.leecode.june_daily;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import com.leecode.june_daily.Topic_297.TreeNode;
 
 public class Main_test {
 
@@ -14,6 +15,11 @@ public class Main_test {
         //System.out.println(new Topic_9().isPalindrome(1221));
         //test_topic_739();
         //test_topic_1300();
+        //tes_topic_297();
+        System.out.println(new Topic_1014().maxScoreSightseeingPair(new int[]{8,1,5,2,6}));
+    }
+
+    private static void tes_topic_297() {
         TreeNode root = new TreeNode(1);
         TreeNode left = new TreeNode(2);
         TreeNode right = new TreeNode(3);
