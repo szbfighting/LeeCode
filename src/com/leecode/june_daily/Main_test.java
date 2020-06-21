@@ -16,7 +16,18 @@ public class Main_test {
         //test_topic_739();
         //test_topic_1300();
         //tes_topic_297();
-        System.out.println(new Topic_1014().maxScoreSightseeingPair(new int[]{8,1,5,2,6}));
+        //System.out.println(new Topic_1014().maxScoreSightseeingPair(new int[]{8,1,5,2,6}));
+        test_topic_124();
+    }
+
+    private static void test_topic_124() {
+        Topic_124.TreeNode root = new Topic_124.TreeNode(5);
+        root.left = new Topic_124.TreeNode(9);
+        Topic_124.TreeNode a = new Topic_124.TreeNode(10);
+        a.left = new Topic_124.TreeNode(15);
+        a.right = new Topic_124.TreeNode(7);
+        root.right = a;
+        System.out.println(new Topic_124().maxPathSum(root));
     }
 
     private static void tes_topic_297() {
