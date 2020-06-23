@@ -18,9 +18,16 @@ public class Main_test {
         //tes_topic_297();
         //System.out.println(new Topic_1014().maxScoreSightseeingPair(new int[]{8,1,5,2,6}));
         //test_topic_124();
+        //test_interview_16_18();
+        String a = "1";
+        String b = "1";
+        System.out.println(new Topic_67().addBinary(a,b));
+
+    }
+
+    private static void test_interview_16_18() {
         String pattren = "abb",value = "dogcatcatdog";
         System.out.println(new Interview_16_18().patternMatching(pattren,value));
-
     }
 
     private static void test_topic_124() {
