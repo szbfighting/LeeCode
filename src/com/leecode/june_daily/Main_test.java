@@ -19,10 +19,26 @@ public class Main_test {
         //System.out.println(new Topic_1014().maxScoreSightseeingPair(new int[]{8,1,5,2,6}));
         //test_topic_124();
         //test_interview_16_18();
+        //test_topic_67();
+        //test_topic_139();
+
+
+    }
+
+    private static void test_topic_139() {
+        String s = "bb";
+        List<String> word = new ArrayList<>();
+        word.add("a");
+        word.add("b");
+        word.add("bbb");
+        word.add("bbbb");
+        System.out.println(new Topic_139().wordBreak(s,word));
+    }
+
+    private static void test_topic_67() {
         String a = "1";
         String b = "1";
         System.out.println(new Topic_67().addBinary(a,b));
-
     }
 
     private static void test_interview_16_18() {
