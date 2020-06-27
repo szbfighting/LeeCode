@@ -21,6 +21,8 @@ public class Main_test {
         //test_interview_16_18();
         //test_topic_67();
         //test_topic_139();
+        int[] nums = {7,8,9,11,12};
+        System.out.println(new Topic_41().firstMissingPositive(nums));
 
 
     }
