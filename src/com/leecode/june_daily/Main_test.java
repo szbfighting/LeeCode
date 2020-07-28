@@ -1,8 +1,7 @@
 package com.leecode.june_daily;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+
 import com.leecode.june_daily.Topic_297.TreeNode;
 
 public class Main_test {
@@ -22,10 +21,23 @@ public class Main_test {
         //test_topic_67();
         //test_topic_139();
         //test_topic_41();
+        //test_topic_209();
+        /*int[] nums = new int[]{3,2,3,1,2,4,5,5,6};
+        System.out.println(findKthLargest(nums,4));*/
+        HashMap<Integer,String> hashMap = new HashMap<>();
+        hashMap.put(1,"szb");
+        hashMap.put(1,"qqq");
+
+    }
+
+    public static  int findKthLargest(int[] nums, int k) {
+        Arrays.sort(nums);
+        return nums[nums.length-k];
+    }
+
+    private static void test_topic_209() {
         int[] nums = {2,3,1,2,4,3};
         System.out.println(new Topic_209().minSubArrayLen(1,nums));
-
-
     }
 
     private static void test_topic_41() {
